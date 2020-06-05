@@ -2,6 +2,7 @@
 
 *{
   margin:0;
+
   padding:0;
   box-sizing:border-box;
 }
@@ -35,10 +36,16 @@ p{
 }
 
 img{
-  width: 100%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+    display: inline;
+    margin: 0px auto;
+}
+  /* width: 100%;
   max-width: 900px;
   height: auto;
-}
+} */
 /*End global*/
 
 /*Start reusable*/
@@ -102,7 +109,7 @@ img{
 /* Start header*/
 header{
   width: 100%;
-  height: 100vh;
+  height: 60vh;
 }
 .top-nav{
   width: 100%;
@@ -239,9 +246,44 @@ li{
 
 .about-me{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 7fr 4fr;
+  text-align:center;
+  margin-left: 200px;
+margin-right: 200px;
 }
 /*Start about*/
+
+////////////////////////////////////////////////
+/* .description {
+    font-size: 1.5rem;
+}
+
+.description {
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.description{
+    display: block;
+    font-size: 0.67em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+} */
+///////////////////////////////////////////////////////////////////////////////
+
+
+.img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+    display: inline;
+    height: 100%;
+    width: auto;
+    margin: 0px auto;
+}
 
 
 
@@ -272,12 +314,26 @@ li{
   flex: 1;
 }
 .social-media{
-  margin-top: 5rem;
+
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 7fr 4fr;
+  text-align:center;
+
 }
 
 .social-media i{
   font-size: 5rem;
+  margin-left: 8px;
   transition: color 650rem;
+}
+
+.git{
+  margin-left: 40px;
+}
+.linkedin{
+  margin-right: 300px;
+
 }
 
 /*End about*/
@@ -347,6 +403,7 @@ li{
 }
 
 .portfolio-description{
+
   flex: 1;
 
 }
