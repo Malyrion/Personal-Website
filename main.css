@@ -34,14 +34,21 @@ p{
   font-size: 1.8rem;
   font-weight: 300;
 }
-
 img{
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+}
+
+
+.secondpart img{
   width: 200px;
   height: 200px;
   border-radius: 50%;
-    display: inline;
-    margin: 0px auto;
+  display: inline;
+  margin: 0px auto;
 }
+
   /* width: 100%;
   max-width: 900px;
   height: auto;
@@ -275,7 +282,7 @@ margin-right: 200px;
 ///////////////////////////////////////////////////////////////////////////////
 
 
-.img {
+.second-part img {
   width: 250px;
   height: 250px;
   border-radius: 50%;
